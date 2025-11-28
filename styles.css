@@ -736,3 +736,7 @@
                 grid-template-columns: 1fr;
             }
         }
+    .hidden-link {
+        color: #e94560;
+        text-decoration: none;
+    }
