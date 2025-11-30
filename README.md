@@ -8,7 +8,7 @@ Website Link - https://r-ankur2k.github.io/portfolio-site/
 ## ✨ Highlights
 
 - 🎨 Beautiful, glassmorphism-inspired UI with gradients and soft glows  
-- 🧩 Single-page layout with smooth scrolling navigation  
+- 🧩 Tabbed navigation layout  
 - 📱 Fully responsive and device-adaptive (mobile, tablet, desktop)  
 - 🧪 Tailored for QA Automation / SDET roles with Playwright focus  
 - ⚡ Subtle micro-animations on hover, scroll, and section transitions  
