@@ -131,27 +131,37 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <h3>Accenture</h3>
-                        <div class="role">QA Automation Engineer</div>
+                        <div class="timeline-header">
+                            <h3>Accenture</h3>
+                            <div class="role">QA Automation Engineer</div>
+                        </div>
                         <div class="date">Oct 2022 - Present</div>
-                        <ul>
-                            <li>Framework Engineering: Built a scalable POM-based framework in TypeScript, reducing maintenance efforts by 40% through reusable selectors, components, and utilities.</li>
-                            <li>Execution Optimization: Implemented parallel execution + cross-browser testing (Chromium, Firefox, WebKit), decreasing regression time from 4 hours to 45 minutes.</li>
-                            <li>CI/CD Automation: Integrated Playwright suites into GitHub Actions/Jenkins for nightly execution and automated quality gates on pull requests.</li>
-                            <li>Flakiness Reduction: Achieved 90% test stability by using Playwright’s auto-wait, strict mode, and predictable selectors.</li>
-                            <li>Debugging & Reporting: Enabled detailed debugging with Trace Viewer, videos, and Allure reports, reducing investigation effort by 50%.</li>
-                        </ul>
+                        <div class="collapsible-content">
+                            <ul>
+                                <li>Framework Engineering: Built a scalable POM-based framework in TypeScript, reducing maintenance efforts by 40% through reusable selectors, components, and utilities.</li>
+                                <li>Execution Optimization: Implemented parallel execution + cross-browser testing (Chromium, Firefox, WebKit), decreasing regression time from 4 hours to 45 minutes.</li>
+                                <li>CI/CD Automation: Integrated Playwright suites into GitHub Actions/Jenkins for nightly execution and automated quality gates on pull requests.</li>
+                                <li>Flakiness Reduction: Achieved 90% test stability by using Playwright’s auto-wait, strict mode, and predictable selectors.</li>
+                                <li>Debugging & Reporting: Enabled detailed debugging with Trace Viewer, videos, and Allure reports, reducing investigation effort by 50%.</li>
+                            </ul>
+                        </div>
+                        <button class="expand-btn">Read More</button>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <h3>Narula Institute of Technology, Kolkata</h3>
-                        <div class="role">BBA</div>
+                        <div class="timeline-header">
+                            <h3>Narula Institute of Technology, Kolkata</h3>
+                            <div class="role">BBA</div>
+                        </div>
                         <div class="date">2019 – 2022</div>
-                        <ul>
-                            <li>CGPA: 8.9</li>
-                        </ul>
+                        <div class="collapsible-content">
+                            <ul>
+                                <li>CGPA: 8.9</li>
+                            </ul>
+                        </div>
+                        <button class="expand-btn">Read More</button>
                     </div>
                 </div>
             </div>
@@ -239,6 +249,6 @@
         <p>&copy; 2025 Ankur Raj. All rights reserved. | Crafted with passion for automation excellence</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

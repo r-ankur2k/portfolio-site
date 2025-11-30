@@ -57,5 +57,24 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('theme', 'light');
         }
     });
+
+    // Expandable content functionality
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    timelineItems.forEach(item => {
+        const expandBtn = item.querySelector('.expand-btn');
+        const collapsibleContent = item.querySelector('.collapsible-content');
+
+        if (expandBtn && collapsibleContent) {
+            expandBtn.addEventListener('click', () => {
+                collapsibleContent.classList.toggle('expanded');
+                if (collapsibleContent.classList.contains('expanded')) {
+                    expandBtn.textContent = 'Read Less';
+                } else {
+                    expandBtn.textContent = 'Read More';
+                }
+            });
+        }
+    });
 });
 
